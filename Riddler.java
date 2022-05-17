@@ -33,10 +33,10 @@ public class Riddler
 	 */
 	static boolean isDifferent(int number)
 	{
-		int d1 = number % 10;
-		int d2 = number / 10 % 10;
-		int d3 = number / 100 % 10;
-		int d4 = number /1000 % 10;
+		int d1 = number % 10; //one
+		int d2 = number / 10 % 10; //ten
+		int d3 = number / 100 % 10; //hundred
+		int d4 = number /1000 % 10; //thousand
 		
 		if (!(d1 == d2 || d1 == d3 || d1 == d4 || 
 			d2 == d3 || d2 == d4 ||
